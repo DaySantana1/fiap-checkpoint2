@@ -14,7 +14,7 @@ Aplicação Java proposta como Checkpoint 2 do primeiro semestre da matéria de 
 #### Clonando o repositório
 
 ```
-git clone https://github.com/viniciosromano/fiap-checkpoint2.git
+git clone https://github.com/DaySantana1/fiap-checkpoint2.git
 ```
 
 ## Como executar
@@ -37,17 +37,17 @@ docker run -d -p 8080:8080 -e PROFILE=<prd|dev|stg> fiap-checkpoint2
 
 Profile dev
 ```
-docker run -d -p 8080:8080 -e PROFILE=dev viniciosromano/fiap-checkpoint2
+docker run -d -p 8080:8080 -e PROFILE=dev DaySantana1/fiap-checkpoint2
 ```
 
 Profile stg
 ```
-docker run -d -p 8081:8080 -e PROFILE=stg viniciosromano/fiap-checkpoint2
+docker run -d -p 8081:8080 -e PROFILE=stg DaySantana1/fiap-checkpoint2
 ```
 
 Profile prd
 ```
-docker run -d -p 8082:8080 -e PROFILE=prd viniciosromano/fiap-checkpoint2
+docker run -d -p 8082:8080 -e PROFILE=prd DaySantana1/fiap-checkpoint2
 ```
 #### Navegando na aplicação
 
