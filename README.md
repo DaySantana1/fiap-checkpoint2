@@ -30,7 +30,7 @@ docker build -t fiap-checkpoint2 .
 * Executando o container
 
 ```
-docker run -d -p 8080:8080 -e PROFILE=<prd|dev|stg> fiap-checkpoint2
+docker run -d -p 8080:8080 -e PROFILE=<prd|dev|stg> DaySantana1/fiap-checkpoint2
 ```
 
 * Executando o container a partir do Docker Hub
